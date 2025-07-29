@@ -17,3 +17,17 @@ The changes from AI were lines 18 and 28.<br />
 Also line 20 on the position (2nd) parameter.
 
 But it works now so yay. I feel guilty though, I'm sorry guys.
+
+# 07/28/2025
+
+Okay, I used AI again but in my defense it didn't solve anything really.<br />
+I swear that I only used AI for like the last 5 mins and it was all because of a stupid typo.<br />
+I coded everything else by myself by doing research. What AI pointed out was that I was calling the first value of the y axis of the apple.<br />
+This is what it looked like before and after AI:
+```
+# Before:
+render += cv2.warpAffine(img, np.float32([[1,0,(list(map(int, apple.body.position))[0]-250)],[0,1,(list(map(int, apple.body.position))[0]-250)]]), (512, 512))
+# After:
+render += cv2.warpAffine(img, np.float32([[1,0,(list(map(int, apple.body.position))[0]-250)],[0,1,(list(map(int, apple.body.position))[1]-250)]]), (512, 512))
+```
+But anyways the changes I made was only adding a plane image to OpenCV which was way harder than I thought. Spent a whole hour just on that.
