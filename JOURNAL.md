@@ -31,3 +31,10 @@ render += cv2.warpAffine(img, np.float32([[1,0,(list(map(int, apple.body.positio
 render += cv2.warpAffine(img, np.float32([[1,0,(list(map(int, apple.body.position))[0]-250)],[0,1,(list(map(int, apple.body.position))[1]-250)]]), (512, 512))
 ```
 But anyways the changes I made was only adding a plane image to OpenCV which was way harder than I thought. Spent a whole hour just on that.
+
+# 08/09/2025
+
+Wow, it has been a while since I touched this project.<br />
+Well anwyays, I added user input to control some variables and renamed some variables and functions.<br />
+And this time I did NOT use AI. This update is too easy to use it anyways.<br />
+Next I need to add altitude and all that stuff but whatever.
