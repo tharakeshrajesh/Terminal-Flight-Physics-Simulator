@@ -41,10 +41,10 @@ Next I need to add altitude and all that stuff but whatever.
 
 # 08/10/2025
 
-I didn't know terminal craft was ending today so I had to lock in.
-I mostly ditched Pymunk and only used it to store bodies, I think.
-And I will admit, I used AI for basically every formula because I didn't feel like searching it up.
-Also used AI to beautify my code but that is it.
-I'll be honest, the sim is still pretty bad so I will continue working on it after a break.
-This will just be v1, the bare functioning parts.
-I need to make it look better next time but for now I am going to rest my eyes and add documentation later to log more time.
+I didn't know terminal craft was ending today so I had to lock in.<br />
+I mostly ditched Pymunk and only used it to store bodies, I think.<br />
+And I will admit, I used AI for basically every formula because I didn't feel like searching it up.<br />
+Also used AI to beautify my code but that is it.<br />
+I'll be honest, the sim is still pretty bad so I will continue working on it after a break.<br />
+This will just be v1, the bare functioning parts.<br />
+I need to make it look better next time but for now I am going to rest my eyes and add documentation later to log more time.<br />
