@@ -87,18 +87,17 @@ Feel free to make pull requests and experiment on my code.<br>
 ### Windows
 
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/f191b67242d5476d42772e8b518d26daead24ede_image.png)
-![](https://files.slack.com/files-pri/T0266FRGM-F099VMQB2H2/image.png)
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/83560c5246537940c00bc3a611932ac01a83f344_image.png)
 
 ### Linux
 
-![](https://files.slack.com/files-tmb/T0266FRGM-F099SGFUWCW-b89cedf78b/image_720.png)
-![](https://files.slack.com/files-tmb/T0266FRGM-F099VN21UCU-22c39b0e8c/image_720.png)
-![](https://files.slack.com/files-tmb/T0266FRGM-F099L4BSQ75-ebb94d4cc9/image_720.png)
-
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/6b8b5f86530b6e6d98e166c7a1e87ff4fcb33522_image.png)
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/c83b9d4398f1c14f8d8945ba1c6fb08dcff46544_image.png)
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/db7c31ad994fe12734255c2b0a5c0c0b3337950f_image.png)
 
 
 # Installation
-[https://github.com/tharakeshrajesh/WorseTerminal/releases/tag/v1.1[https://github.com/tharakeshrajesh/WorseTerminal/releases/tag/latest]](https://github.com/tharakeshrajesh/Terminal-Flight-Physics-Simulator/releases/tag/v1)
+[https://github.com/tharakeshrajesh/Terminal-Flight-Physics-Simulator/releases/tag/v1](https://github.com/tharakeshrajesh/Terminal-Flight-Physics-Simulator/releases/tag/v1)
 
 # Authors
 Me, that's it
