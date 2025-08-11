@@ -86,37 +86,22 @@ Feel free to make pull requests and experiment on my code.<br>
 
 ### Windows
 
-!()[https://hc-cdn.hel1.your-objectstorage.com/s/v3/f191b67242d5476d42772e8b518d26daead24ede_image.png]
-!()[https://files.slack.com/files-pri/T0266FRGM-F099VMQB2H2/image.png]
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/f191b67242d5476d42772e8b518d26daead24ede_image.png)
+![](https://files.slack.com/files-pri/T0266FRGM-F099VMQB2H2/image.png)
 
 ### Linux
 
-!()[https://files.slack.com/files-tmb/T0266FRGM-F099SGFUWCW-b89cedf78b/image_720.png]
-!()[https://files.slack.com/files-tmb/T0266FRGM-F099VN21UCU-22c39b0e8c/image_720.png]
-!()[https://files.slack.com/files-tmb/T0266FRGM-F099L4BSQ75-ebb94d4cc9/image_720.png]
+![](https://files.slack.com/files-tmb/T0266FRGM-F099SGFUWCW-b89cedf78b/image_720.png)
+![](https://files.slack.com/files-tmb/T0266FRGM-F099VN21UCU-22c39b0e8c/image_720.png)
+![](https://files.slack.com/files-tmb/T0266FRGM-F099L4BSQ75-ebb94d4cc9/image_720.png)
 
 
 
 # Installation
-https://github.com/tharakeshrajesh/WorseTerminal/releases/tag/v1.1[https://github.com/tharakeshrajesh/WorseTerminal/releases/tag/latest]
+[https://github.com/tharakeshrajesh/WorseTerminal/releases/tag/v1.1[https://github.com/tharakeshrajesh/WorseTerminal/releases/tag/latest]](https://github.com/tharakeshrajesh/Terminal-Flight-Physics-Simulator/releases/tag/v1)
 
 # Authors
 Me, that's it
-
-# Contact
-Email: trajesh@3272010.xyz
-yes, i actually open my emails so send me one if you have any questions or something, idk
-]
-
-
-# Installation
-(https://github.com/tharakeshrajesh/WorseTerminal/releases/tag/v1.1)[https://github.com/tharakeshrajesh/WorseTerminal/releases/tag/latest]
-
-# Authors
-Me, that's it
-
-# Credits
-Credits to this website -> (https://pngtree.com/freepng/flying-airplane-top-view_15835359.html)[https://pngtree.com/freepng/flying-airplane-top-view_15835359.html] for the plane png and icon
 
 # Contact
 Email: trajesh@3272010.xyz
