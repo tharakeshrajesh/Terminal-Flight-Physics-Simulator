@@ -14,7 +14,6 @@ space.gravity = (0, 0) # Giving the space gravity but in our case we are using t
 render = np.zeros((512, 512, 3), dtype=np.uint8) # Creating a 512x512 pixel numpy array
 plane = None # Creating a plane object
 img = np.array(cv2.resize(cv2.imread('plane.png'), (512, 512), interpolation=cv2.INTER_AREA)) # Creating another numpy array with the plane inside it this time
-platform = platform()
 
 # Variables
 gravity = 9.81 # Gravity of the simulation, the actual one
@@ -177,4 +176,5 @@ def reset_plane_position(event=None):
 on_press_key("r", reset_plane_position) # Resets plane to camera view when R key is pressed
 
 calibrate_screen()
+
 
