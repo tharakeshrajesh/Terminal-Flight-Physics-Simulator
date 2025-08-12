@@ -62,9 +62,9 @@ def blit_img(dst, src, center_x, center_y):
 # Clear function
 def clear():
     if platform.lower() == "win32": # Checks if platform is windows
-        run("cls") # Runs cls for windows because windows wants to be special
+        run(["cls"], shell=True) # Runs cls for windows because windows wants to be special
     else:
-        run("clear") # But Mac and Linux are normal
+        run(["clear"], shell=True) # But Mac and Linux are normal
 
 # Screen calibration function to adjust the "screen" to fit
 def calibrate_screen():
@@ -176,5 +176,6 @@ def reset_plane_position(event=None):
 on_press_key("r", reset_plane_position) # Resets plane to camera view when R key is pressed
 
 calibrate_screen()
+
 
 
