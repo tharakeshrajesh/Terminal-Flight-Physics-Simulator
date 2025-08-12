@@ -7,12 +7,14 @@ import numpy as np
 import pymunk, cv2, numpyasciiart
 from time import sleep
 from keyboard import on_press_key
+from sys import platform
 
 space = pymunk.Space() # Creating a pymunk space
 space.gravity = (0, 0) # Giving the space gravity but in our case we are using this to accelerate the plane
 render = np.zeros((512, 512, 3), dtype=np.uint8) # Creating a 512x512 pixel numpy array
 plane = None # Creating a plane object
 img = np.array(cv2.resize(cv2.imread('plane.png'), (512, 512), interpolation=cv2.INTER_AREA)) # Creating another numpy array with the plane inside it this time
+platform = platform()
 
 # Variables
 gravity = 9.81 # Gravity of the simulation, the actual one
@@ -42,7 +44,6 @@ def lift_coefficient(aoa_deg):
 def drag_coefficient(aoa_deg):
     return 0.02 + 0.04 * aoa_deg**2  # typical U-shape curve
 
-
 # Image blitting function (more efficient and faster than the older warp affine)
 def blit_img(dst, src, center_x, center_y):
     h, w = src.shape[:2] # I forgot what these do so I will come back to this later
@@ -59,17 +60,24 @@ def blit_img(dst, src, center_x, center_y):
     dst[dy0:dy1, dx0:dx1] = src[sy0:(sy0 + (dy1-dy0)), sx0:(sx0 + (dx1-dx0))]
 
 
+# Clear function
+def clear():
+    if platform.lower() == "win32": # Checks if platform is windows
+        run("cls") # Runs cls for windows because windows wants to be special
+    else:
+        run("clear") # But Mac and Linux are normal
+
 # Screen calibration function to adjust the "screen" to fit
 def calibrate_screen():
     global height_adjust_stretch, width
     try:
-        run("clear")
+        clear()
         rprint(numpyasciiart.to_ascii(render, width, height_adjust_stretch, "█") + "\nPlease adjust your terminal to fit the box above.\n[green]Ctrl+C to edit resolution.    Enter to continue.[/green]")
         input()
-        run("clear")
+        clear()
         askInput()
     except KeyboardInterrupt:
-        run("clear")
+        clear()
         rprint("[italic]*Bigger resolution means higher quality but more lag.[/italic]")
         height_adjust_stretch = float(input("Height adjust stretch: "))
         width = float(input("Width: "))
@@ -169,3 +177,4 @@ def reset_plane_position(event=None):
 on_press_key("r", reset_plane_position) # Resets plane to camera view when R key is pressed
 
 calibrate_screen()
+
