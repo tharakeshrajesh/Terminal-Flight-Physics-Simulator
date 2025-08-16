@@ -14,7 +14,7 @@ Make sure to install dependencies if using the Python file.<br>
 
 # Dependencies
 
-Run requirements.txt in terminal with pip installed or manually install each with the following commands:
+Run requirements.txt in terminal with pip installed by running ```pip install -r requirements.txt``` or manually install each with the following commands:
 
 1. **rich**
 
