@@ -1,1 +1,6 @@
-pip install rich numpy pymunk opencv-python numpyasciiart keyboard
+rich
+numpy
+pymunk
+opencv-python
+numpyasciiart
+keyboard
