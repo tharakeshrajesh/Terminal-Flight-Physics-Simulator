@@ -6,6 +6,9 @@ I will continue working on this but I will be taking a break for now.<br>
 Feel free to make pull requests and experiment on my code.<br>
 
 # Dependencies
+
+Run requirements.txt in terminal with pip installed or manually install each with the following commands:
+
 1. **rich**
 
    * Command: `pip install rich`
