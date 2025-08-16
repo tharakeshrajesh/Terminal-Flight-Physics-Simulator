@@ -63,6 +63,10 @@ Currently no Mac snapshots, if you want to send it then contact me by clicking [
 # Installation
 [https://github.com/tharakeshrajesh/Terminal-Flight-Physics-Simulator/releases/tag/v1](https://github.com/tharakeshrajesh/Terminal-Flight-Physics-Simulator/releases/tag/v1)
 
+I recommend using the Python version for Linux because the Linux binary is not doing the best but it is whatever.<br>
+Also download a copy of plane.png, OR draw your own plane to be used in the simulation, just make sure it has a transparent background.<br>
+Make sure to install dependencies if using the Python file.<br>
+
 # Authors
 Me, that's it
 
