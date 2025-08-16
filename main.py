@@ -142,7 +142,7 @@ def start():
             )
 
     except KeyboardInterrupt:
-        run('clear')
+        clear()
         askInput()
 
 # Function to ask for user set variables
@@ -158,13 +158,13 @@ def askInput():
         rho = float(input("Air Density at Sea Level (kg/m³): "))
         wing_area = float(input("Wing Area (m²): "))
         space.gravity = (0, (knots * 0.51444 - plane_knots * 0.51444))
-        run('clear')
+        clear()
         start()
     except KeyboardInterrupt:
-        run('clear')
+        clear()
         exit(0)
     except Exception as e:
-        run('clear')
+        clear()
         rprint("[red]That is not an option! Please try again.[/red]")
         askInput()
         return
